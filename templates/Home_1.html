@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Crop Recommendation System</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style/myhome.css')}}">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 style="margin-bottom: 200px;">---------CROP RECOMMENDATION SYSTEM---------</h1>
+      <p style="color: rgb(100,150,150),margin-bottom: 50px;"><b>The Crop Recommendation System is an advanced agricultural technology solution designed to assist farmers in optimizing their crop selection based on various environmental and soil conditions. Leveraging machine learning and data analytics, the system provides personalized recommendations to enhance crop yield and sustainability.</b></p>
+
+      <h2 style="color: rgb(255,250,245);">Click following button for Crop recommandation</h2>
+    </main>
+     <form action="/Predict">
+      <input type="submit" id="Predict" name="Predict" action="/Predict" value="Predict">
+     </form>
+  </body>
+</html>
